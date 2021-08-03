@@ -1,0 +1,10 @@
+2021-07-30 00:23:22,436 : INFO : Start of reading column names from new file!
+2021-07-30 00:23:24,675 : INFO : End of reading column names from new file!
+2021-07-30 00:23:29,457 : INFO : Comparing new file columns with Json file columns!
+2021-07-30 00:23:29,458 : INFO : Columns has been matched, we can proceed!
+2021-07-30 00:23:37,445 : INFO : Imputation missing values in different features!
+2021-07-30 00:23:37,466 : INFO : Imputation has been successfully completed!
+2021-07-30 00:23:45,469 : INFO : Performing train & test split on main dataframe!
+2021-07-30 00:23:45,469 : INFO : Performing train & test split on main dataframe!
+2021-07-30 00:23:58,594 : INFO : Train & test split on main dataframe has been completed!
+2021-07-30 00:23:58,594 : INFO : Train & test split on main dataframe has been completed!

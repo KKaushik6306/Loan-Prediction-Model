@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  background-color: antiquewhite;
+  background: url(./images/loanimage.jpg) no-repeat;
+  background-size: 100%;
+  /* position: fixed; */
+  background-size: -400px 0px;
+}
+
+.container {
+  background-color: rgb(245, 245, 245);
+  width: 40vw;
+  height: 77vh;
+  align-items: center;
+  margin: 80px 350px 0px 350px;
+  padding: 15px 15px;
+  border-radius: 10px;
+  border: solid black;
+  opacity: 0.5;
+  transition: all;
+}
+
+label {
+  font-size: 16px;
+  border-radius: 2px;
+  width: 30vw;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 10px;
+  color: black;
+}
+
+.area {
+  margin: 5px 5px 5px 50px;
+  border-radius: 2px;
+  width: 15vw;
+  padding: 5px 10px;
+  background-color: whitesmoke;
+  align-items: left;
+}
+
+.button {
+  background-color: grey; /* Green */
+  border: black;
+  color: white;
+  width: 10vw;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin: 5px 5px 5px 5px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+h3 {
+  color: whitesmoke;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 15px;
+  margin-left: 200px;
+  padding-top: 0px;
+  text-decoration: underline;
+}

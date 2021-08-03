@@ -1,0 +1,18 @@
+2021-07-30 01:07:32,314 : INFO : Start of reading column names from new file!
+2021-07-30 01:07:32,339 : INFO : End of reading column names from new file!
+2021-07-30 01:07:32,339 : INFO : Comparing new file columns with Json file columns!
+2021-07-30 01:07:32,340 : INFO : Columns has been matched, we can proceed!
+2021-07-30 01:08:11,758 : INFO : Imputation missing values in different features!
+2021-07-30 01:08:39,176 : INFO : Imputation has been successfully completed!
+2021-07-30 01:10:56,894 : INFO : Performing train & test split on main dataframe!
+2021-07-30 01:10:56,894 : INFO : Performing train & test split on main dataframe!
+2021-07-30 01:11:50,769 : INFO : Train & test split on main dataframe has been completed!
+2021-07-30 01:11:50,769 : INFO : Train & test split on main dataframe has been completed!
+2021-07-30 01:13:08,137 : INFO : Model Hypertuning is performing!
+2021-07-30 01:13:08,137 : INFO : Model Hypertuning is performing!
+2021-07-30 01:15:02,760 : INFO : Model Hypertuning has been completed!
+2021-07-30 01:15:02,760 : INFO : Model Hypertuning has been completed!
+2021-07-30 01:15:43,789 : INFO : Saving final model!
+2021-07-30 01:15:43,789 : INFO : Saving final model!
+2021-07-30 01:15:54,489 : INFO : Final model has been saved in prediction folder!
+2021-07-30 01:15:54,489 : INFO : Final model has been saved in prediction folder!

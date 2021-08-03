@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Loan Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+</head>
+
+
+<body>
+<style>
+    body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  background-color: antiquewhite;
+  background: "{{ url_for('static', filename='images/loanimage.jpg') }}") no-repeat;
+  background-size: 100%;
+  /* position: fixed; */
+  background-size: -400px 0px;
+}
+</style>
+    <div class="container">
+        <form class="form" method="post" action="/predict_loanstatus">
+            <table>
+                <tr>
+                    <H2>Loan Prediction Model</H2>
+                </tr>
+                <tr>
+                    <td><label>No. of Dependents</label></td>
+                    <td><input class="area" type="text" id="uiSqft" class="floatLabel" name="dependent"></td>
+                </tr>
+                <tr>
+                    <td><label>Applicant Income</label></td>
+                    <td><input class="area" type="text" id="uiSqft" class="floatLabel" name="applicantincome"></td>
+                </tr>
+                <tr>
+                    <td><label>Coapplicant Income</label></td>
+                    <td><input class="area" type="text" id="uiSqft" class="floatLabel" name="coapplicantincome"></td>
+                </tr>
+                <tr>
+                    <td><label>Loan Amount</label></td>
+                    <td><input class="area" type="text" id="uiSqft" class="floatLabel" name="loanamount"></td>
+                </tr>
+                <tr>
+                    <td><label>Loan Amount Term</label></td>
+                    <td><input class="area" type="text" id="uiSqft" class="floatLabel" name="loanamountterm"></td>
+                </tr>
+                <tr>
+                    <td><label>Credit History</label></td>
+                    <td><input class="area" type="text" id="uiSqft" class="floatLabel" name="credithistory"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td><select class="area" type="text" id="uiSqft" class="floatLabel" name="Gender">
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label>Married Status</label></td>
+                    <td><select class="area" type="text" id="uiSqft" class="floatLabel" name="Married">
+                            <option value="yes">yes</option>
+                            <option value="no">no</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label>Education</label></td>
+                    <td><select class="area" type="text" id="uiSqft" class="floatLabel" name="Graduate">
+                            <option value="graduate">graduate</option>
+                            <option value="not graduate">not graduate</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label>Self Employed</label></td>
+                    <td><select class="area" type="text" id="uiSqft" class="floatLabel" name="Employed">
+                            <option value="yes">yes</option>
+                            <option value="no">no</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label>Property</label></td>
+                    <td><select class="area" type="text" id="uiSqft" class="floatLabel" name="Property">
+                            <option value="rural">Rural</option>
+                            <option value="semiurban">Semi-urban</option>
+                            <option value="urban">Urban</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><button class="button" type="submit" data-validation-required-message="Please fill complete information!">Loan
+                        Status</button></td>
+                </tr>
+            </table>
+        </form>
+        <form class="form" method="post" action="/training">
+            <button class="button" type="submit">Train Model</button>
+        </form>
+    </div>
+<h3 >This Model is made by Karan Kaushik. Any changes must be done by him only.</h3>
+</body>
+
+</html>

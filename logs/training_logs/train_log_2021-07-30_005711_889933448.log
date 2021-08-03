@@ -1,0 +1,6 @@
+2021-07-30 01:02:24,577 : INFO : Start of reading column names from new file!
+2021-07-30 01:03:37,822 : INFO : End of reading column names from new file!
+2021-07-30 01:05:14,738 : INFO : Comparing new file columns with Json file columns!
+2021-07-30 01:06:18,117 : INFO : Columns has been matched, we can proceed!
+2021-07-30 01:06:23,736 : INFO : Imputation missing values in different features!
+2021-07-30 01:06:23,917 : INFO : Imputation has been successfully completed!
